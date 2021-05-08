@@ -1,0 +1,26 @@
+$base: 4px;
+$primary-color:#1f203a;
+$secondary-color:#f2f2f2;;
+$color-white:white;
+html{
+    scroll-behavior: smooth;
+}
+.active-transform{
+    transform: translateX(0) !important;
+}
+.active-button{
+    background-color: $secondary-color !important;
+    color: $primary-color !important;
+    transition: 1s;
+}
+.prevent-scroll{
+    overflow: hidden;
+}
+@media screen and (max-width:992px){
+    .sm-header{
+        font-size: $base*4+2;
+    }
+    .sm-content{
+        font-size: $base*3+2;
+    }
+}

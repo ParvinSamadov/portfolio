@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../icons/icomoon.eot?2jjdux');
+    src:  url('../icons/icomoon.eot?2jjdux#iefix') format('embedded-opentype'),
+      url('../icons/icomoon.ttf?2jjdux') format('truetype'),
+      url('../icons/icomoon.woff?2jjdux') format('woff'),
+      url('../icons/icomoon.svg?2jjdux#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook-1:before {
+    content: "\e900";
+  }
+  .icon-linkedin:before {
+    content: "\e901";
+  }
+  .icon-down-arrow:before {
+    content: "\e902";
+  }
+  .icon-square:before {
+    content: "\e903";
+  }
+  .icon-instagram:before {
+    content: "\e904";
+  }
+  .icon-facebook .path1:before {
+    content: "\e905";
+    color: rgb(59, 89, 152);
+  }
+  .icon-facebook .path2:before {
+    content: "\e906";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-github:before {
+    content: "\e907";
+  }
+  

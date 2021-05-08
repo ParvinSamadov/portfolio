@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="40x40" href="https://www.logo.wine/a/logo/Adobe_Spark/Adobe_Spark-Logo.wine.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header pt-3 pb-3 position-relative">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="logo-container ml-3">
+                    <img src="https://www.logo.wine/a/logo/Adobe_Spark/Adobe_Spark-Logo.wine.svg" class="logo">
+                </div>
+                <div class="burger mr-3">
+                    <i class="icon-square burger-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="burger-menu col-12 col-sm-6 col-md-3 position-absolute pl-4 pt-5 pb-5 vh-100 d-flex flex-wrap">
+            <div class="col-12">
+                <span class="close">+</span>
+            </div>
+            <ul>
+                <li><a class="lists-of-menu" href="#profile">About</a></li>
+                <li><a class="lists-of-menu" href="#works-button">Experience</a></li>
+                <li><a class="lists-of-menu" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-6 col-md-9 d-none vh-100 position-absolute blurred-part"></div>
+    </header>
+    <section id="profile" class="profile mb-5">
+        <div class="col-12 gray-part d-flex flex-wrap justify-content-center">
+            <h1 class="name mt-5 col-12 text-center mb-3">Samadov Parvin</h1>
+            <div class="profile-image">
+                <div class="profile-image--container profile-image--container__front" style="background-image: url(./assets/tools/photo.jpg);"></div>
+                <div class="profile-image--container profile-image--container__back d-flex flex-wrap justify-content-center align-items-center">
+                    <p class="about">
+                        I am Parvin Samadov from Azerbaijan. I am 24 yo. Live in Baku. I graduated from Azerbaijan Tourism and Management University.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap justify-content-center">
+                    <button id="turn-button" type="button">About me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="front-end pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="front-end-white-part d-flex flex-wrap">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h3 class="mt-4 mb-4 pt-4 pb-4">
+                            i am
+                            <span><b>frontend-developer</b></span>
+                        </h3>
+                        <img src="./assets/tools/18907.jpg" class="w-100 front-end-white-part__image">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/tools/programming-development-concept-with-mobile-software-symbols-isometric_1284-55720.jpg" class="w-100 front-end-white-part__image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="front-end-gray-part col-12 d-flex justify-content-end">
+            <div class="col-lg-6 h-100 position-relative">
+                <button id="works-button" class="position-absolute btn-l-r button-color">View my works</button>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between flex-wrap">
+                    <h2 class="text-center w-100 mb-5">My Projects</h2>
+                    <div class="col-12 col-md-4 mb-3">
+                        <h3 class="mb-3">Simbrella Proto</h3>
+                        <div class="image-container">
+                            <img src="./assets/tools/simbrella.png" class="w-100 h-100" alt="Simbrella">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <h3 class="mb-3">Tic-Toe Game</h3>
+                        <div class="image-container">
+                            <img src="./assets/tools/tic-toe.png" class="w-100 h-100" alt="Simbrella">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <h3 class="mb-3">Portfolio</h3>
+                        <div class="image-container">
+                            <img src="./assets/tools/portfolio.png" class="w-100 h-100" alt="Simbrella">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap">
+                    <h1 class="w-100 text-center mb-5">Skills</h1>
+                    <div class="col-12 col-md-6 languages">
+                        <h3 class="languages-speaking mb-3 sm-header">Language Skills</h3>
+                        <h5 class="headings sm-content">Azerbaijani</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="100"></div>
+                        </div>
+                        <h5 class="headings sm-content">English</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="75"></div>
+                        </div>
+                        <h5 class="headings sm-content">Russian</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="50"></div>
+                        </div>
+                        <h5 class="headings sm-content">Hebrew</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="10"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 languages">
+                        <h3 class="languages-programming mb-3 sm-header mt-5 mt-md-0">Programming Languages</h3>
+                        <h5 class="headings sm-content">HTML</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="90"></div>
+                        </div>
+                        <h5 class="headings sm-content">CSS</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="80"></div>
+                        </div>
+                        <h5 class="headings sm-content">SASS/SCSS</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="70"></div>
+                        </div>
+                        <h5 class="headings sm-content">Bootstrap</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="75"></div>
+                        </div>
+                        <h5 class="headings sm-content">JavaScript</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="75"></div>
+                        </div>
+                        <h5 class="headings sm-content">Jquery</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="70"></div>
+                        </div>
+                        <h5 class="headings sm-content">C#</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="40"></div>
+                        </div>
+                        <h5 class="headings sm-content">MsSql</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="70"></div>
+                        </div>
+                        <h5 class="headings sm-content">Asp.Net</h5>
+                        <div class="position-relative progress-of-language">
+                            <div class="progress-of-language-container position-absolute text-center" data-count="40"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10">
+                    <h2 class="sm-header stay-in-touch mb-5">I want to stay in touch with you! Please follow me on social media so I can keep in touch.</h2>
+                    <div class="col-12 d-flex justify-content-center social-medias mt-5">
+                        <a href="https://www.facebook.com/profile.php?id=100006622988703" class="go-to-sm mr-2 mr-md-4">
+                            <i class="icon-facebook-1 facebook-custom"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/parvin-samadov-502320209/" class="go-to-sm mr-2 mr-md-4">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/samadovparvin/" class="go-to-sm mr-2 mr-md-4">
+                            <i class="icon-instagram"></i>
+                        </a>
+                        <a href="https://github.com/ParvinSamadov" class="go-to-sm">
+                            <i class="icon-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="col-12 copyright-footer align-self-end p-4">Made by Parvin Samadov</div>
+    </footer>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
